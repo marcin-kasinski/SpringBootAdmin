@@ -26,7 +26,7 @@
 		<spring-cloud.version>Greenwich.M2</spring-cloud.version>
 		-->
 		<spring-cloud.version>Greenwich.RELEASE</spring-cloud.version>
-		<kuebrnetes.cloud.version>1.0.0.RELEASE</kuebrnetes.cloud.version>
+		<kuebrnetes.cloud.version>0.3.0.RELEASE</kuebrnetes.cloud.version>
 				
 		
 		<start-class>mk.AdminApp</start-class>
@@ -67,7 +67,6 @@
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-antrun-plugin</artifactId>
-				<version>1.8</version>
 				<executions>
 					<execution>
 						<id>scp-to-remote</id>
