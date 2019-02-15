@@ -131,13 +131,14 @@
 </dependency>
 
 
-
+<!-- 
 <dependency>
     <groupId>org.springframework.cloud</groupId>
     <artifactId>spring-cloud-starter-kubernetes</artifactId>
     <version>${kuebrnetes.cloud.version}</version>
 </dependency>
-
+ -->
+ 
 	</dependencies>
 
 
