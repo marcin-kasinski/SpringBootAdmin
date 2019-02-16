@@ -27,6 +27,7 @@
 		<!-- Spring 2 -->
 		<spring-cloud.version>Greenwich.RELEASE</spring-cloud.version>
 		<kuebrnetes.cloud.version>1.0.0.RELEASE</kuebrnetes.cloud.version>
+		<spring-admin-version>2.1.2</spring-admin-version>
 
 		<start-class>mk.AdminApp</start-class>
 	</properties>
@@ -117,7 +118,7 @@
 <dependency>
     <groupId>de.codecentric</groupId>
     <artifactId>spring-boot-admin-starter-server</artifactId>
-    <version>2.1.2</version>
+    <version>${spring-admin-version}</version>
 </dependency>
 <dependency>
     <groupId>org.springframework.boot</groupId>
